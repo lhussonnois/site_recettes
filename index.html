@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Gateau au chocolat</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="recette.css"/>
+    </head>
+    <body>
+
+        <div class="contenu">
+
+                
+            <div class="centre categorie">
+                <p class="categorie">Recette</p>
+            </div>
+
+            <h1>Gateau au chocolat</h1> 
+            <br>
+
+            <div class="separateur"></div>
+
+            <div class="centre">
+                <p class="description">"Cette recette facile du gateau au chocolat est un grand classique qui fera plaisir à vos enfants."</p>
+            </div>
+
+            <div class="info">
+                <!--pour aligner l'image style= diplay-bloc-->
+                <img class="centre info" style="display: bloc;" src="https://jonathanroux.com/gateau.jpg?id=9989"></a>
+
+                <!-- TABLE
+                    th : Table header (titres)
+                    tr : Table row (lignes) nbr de lignes
+                    td : table data (données = cellules) nbre de colonnes
+                    
+                    à la fin d'une couleur :
+                    FF = opaque, 00 = transparent, C0= un peu plus de 50% 
+                
+                -->
+                <table class="info">
+                    <tr>
+                        <th>Difficulté</th>
+                        <th>Préparation</th>
+                        <th>Cuisson</th>
+                        <th>Temps total</th>
+                    </tr>
+                    <tr>
+                        <td>facile</td>
+                        <td>10 min</td>
+                        <td>25 min</td>
+                        <td>35 min</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <div class="colonne1 colonne">
+                    <h2>Ingrédients</h2>
+
+                    <div class="tableau">
+                        <p>chocolat noir : 200g</p>
+                        <p>Beurre : 200g</p>
+                        <p>sucre : 150g</p>
+                        <P>Farine : 80g</p>
+                    </div>
+                </div>
+                <div class="colonne2 colonne">
+                    <h2>Préparation</h2>
+                    <table class="preparation">
+                        <!-- je dois rajouter un paragraphe dans mon td car je veux faire un style avec mes numéros et 
+                        comme les textes n'ont pas la même taille je ne peux pas faire directement dans td -->
+                        <tr>
+                            <td><p class="numero">1</p></td>
+                            <td class="preparation_etape">faire fondre le chocolat avec le beurre</td>
+                        </tr>
+                        <tr>
+                            <td><p class="numero">2</p></td>
+                            <td class="preparation_etape">Melanger le sucre, les oeufs et la farine</td>
+                        </tr>
+                        <tr>
+                            <td><p class="numero">3</p></td>
+                            <td class="preparation_etape">Mélanger le tout pour faire une pate</td>
+                        </tr>
+                        <tr>
+                            <td><p class="numero">4</p></td>
+                            <td class="preparation_etape">Mettre au four</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <br><br><br><br><br>
+        </div>
+    </body>
+</html>
